@@ -1,0 +1,35 @@
+package main;
+
+import java.util.ArrayList;
+
+import bean.Marca;
+import bean.Matricula;
+
+public class MainCoche {
+
+	public static void main(String[] args) {
+		
+		Matricula m1 = new Matricula();
+		m1.setMatricula("5543BZY");
+		
+		Matricula m2 = new Matricula();
+		m2.setMatricula("2385LBR");
+		
+		Matricula m3 = new Matricula();
+		m3.setMatricula("6329FLD");
+		
+		Marca b1 = new Marca();
+		b1.setMarca("Seat");
+		
+		Marca b2 = new Marca();
+		b2.setMarca("Toyota");
+		
+		Marca b3 = new Marca();
+		b3.setMarca("Audi");
+		
+	
+		Habitacion h1 = new Habitacion();
+		h1.setM2(90.6);
+		h1.setTipo("Salon");
+
+}

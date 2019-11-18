@@ -1,0 +1,14 @@
+Hacer un pequeño programa que trabaje con coches
+Queremos q nuestros coches alamacen la sgte info
+	matricula
+	marca
+	modelo
+La aplicacón mostrará un menú con las sgtes opciones
+	1- Alta coche
+	2- Listar coches
+	0- Salir del programa
+	
+La opción Alta coche nos preguntará por los datos de un coche y lo guardará en memoria (por ejemplo un ArrayList)
+La opción Listar coches nos mostrará todos los coches que llevamos dados de alta
+La opción 0 nos sacará del programa
+El menú se mostrará todo el rato hasta que se pulse la opción 0

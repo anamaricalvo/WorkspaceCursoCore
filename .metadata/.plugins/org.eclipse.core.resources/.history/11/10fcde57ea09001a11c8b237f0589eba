@@ -1,0 +1,31 @@
+package bean;
+
+public class Matricula {
+	
+	private String matricula;
+
+	public Matricula(String matricula) {
+		super();
+		this.matricula = matricula;
+	}
+
+	public Matricula() {
+		super();
+	}
+
+	public String getMatricula() {
+		return matricula;
+	}
+
+	public void setMatricula(String matricula) {
+		this.matricula = matricula;
+	}
+
+	@Override
+	public String toString() {
+		return "Matricula [matricula=" + matricula + "]";
+	}
+	
+	
+
+}

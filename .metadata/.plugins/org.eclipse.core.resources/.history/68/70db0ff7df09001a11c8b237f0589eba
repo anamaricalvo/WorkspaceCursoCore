@@ -1,0 +1,27 @@
+package main;
+
+import java.util.ArrayList;
+
+import bean.Matricula;
+
+public class MainCoche {
+
+	public static void main(String[] args) {
+		
+		Matricula m1 = new Matricula();
+		m1.setMatricula("5543BZY");
+		m2.setMatricula("2385LBR");
+		m3.setMatricula("6329FLD");
+		
+		Direccion d2 = new Direccion();
+		d2.setTipoVia("Avenida");
+		d2.setNombreVia("Jazmines");
+		d2.setCiudad("Madrid");
+		d2.setCp("28042");
+		
+	
+		Habitacion h1 = new Habitacion();
+		h1.setM2(90.6);
+		h1.setTipo("Salon");
+
+}

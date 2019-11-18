@@ -1,0 +1,63 @@
+package bean;
+
+import java.util.ArrayList;
+
+public class Coche {
+
+	private Matricula matricula;
+	private ArrayList<Coche>listaCoche;
+	private Marca marca;
+	private Modelo modelo;
+	
+	public Coche(Matricula matricula, ArrayList<Coche> listaCoche, Marca marca, Modelo modelo) {
+		super();
+		this.matricula = matricula;
+		this.listaCoche = listaCoche;
+		this.marca = marca;
+		this.modelo = modelo;
+	}
+
+	public Coche() {
+		super();
+	}
+
+	public Matricula getMatricula() {
+		return matricula;
+	}
+
+	public void setMatricula(Matricula matricula) {
+		this.matricula = matricula;
+	}
+
+	public ArrayList<Coche> getListaCoche() {
+		return listaCoche;
+	}
+
+	public void setListaCoche(ArrayList<Coche> listaCoche) {
+		this.listaCoche = listaCoche;
+	}
+
+	public Marca getMarca() {
+		return marca;
+	}
+
+	public void setMarca(Marca marca) {
+		this.marca = marca;
+	}
+
+	public Modelo getModelo() {
+		return modelo;
+	}
+
+	public void setModelo(Modelo modelo) {
+		this.modelo = modelo;
+	}
+
+	@Override
+	public String toString() {
+		return "Coche [matricula=" + matricula + ", listaCoche=" + listaCoche + ", marca=" + marca + ", modelo="
+				+ modelo + "]";
+	}
+	
+	
+}

@@ -1,0 +1,22 @@
+package main;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import bean.Coche;
+import bean.Marca;
+import bean.Matricula;
+import bean.Modelo;
+
+public class MainCoche {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+
+
+	
+	}
+
+}
+

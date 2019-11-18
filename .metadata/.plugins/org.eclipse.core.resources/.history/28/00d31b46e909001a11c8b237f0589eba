@@ -1,0 +1,34 @@
+package main;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import bean.Coche;
+import bean.Marca;
+import bean.Matricula;
+import bean.Modelo;
+
+public class MainCoche {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		ArrayList<Coche> listaCoches = new ArrayList<Coche>();
+		int opcion = 0;
+		System.out.println("Bienvenidos a nuestro programa");
+		
+		do {
+			System.out.println("1 - Alta de coche");
+			System.out.println("2 - Listar coches");
+			System.out.println("0 - Salir del programa");
+			opcion = sc.nextInt();//recogemos la opcion del usuario
+			
+		} while (opcion != 0);
+		
+		
+
+
+	
+	}
+
+}
+

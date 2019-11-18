@@ -1,0 +1,57 @@
+package main;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import bean.Marca;
+import bean.Matricula;
+import bean.Modelo;
+
+public class MainCoche {
+
+	public static void main(String[] args) {
+		
+		Matricula m1 = new Matricula();
+		m1.setMatricula("5543BZY");
+		
+		Matricula m2 = new Matricula();
+		m2.setMatricula("2385LBR");
+		
+		Matricula m3 = new Matricula();
+		m3.setMatricula("6329FLD");
+		
+		Marca b1 = new Marca();
+		b1.setMarca("Seat");
+		
+		Marca b2 = new Marca();
+		b2.setMarca("Toyota");
+		
+		Marca b3 = new Marca();
+		b3.setMarca("Audi");
+		
+		Modelo x1 = new Modelo();
+		x1.setModelo("Leon");
+		
+		Modelo x2 = new Modelo();
+		x2.setModelo("Corolla");
+		
+		Modelo x3 = new Modelo();
+		x3.setModelo("Q5");
+
+		Scanner sc = new Scanner(System.in);
+		Coche
+	public void numeroPar(int numero) {
+		    System.out.println("Numero par menor que: " + numero);
+		    int n;
+		    do {
+		        n = (int) (Math.random() * numero);
+		        System.out.println(n);
+		    } while (n % 2 != 0);
+		    System.out.println("Y el numero par elegido es: " + n);
+		
+		
+	while (Opcion !=0):
+	}
+
+}
+}

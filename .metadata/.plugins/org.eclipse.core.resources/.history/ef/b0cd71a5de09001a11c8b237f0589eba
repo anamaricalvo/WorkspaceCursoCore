@@ -1,0 +1,11 @@
+package bean;
+
+import java.util.ArrayList;
+
+public class Coche {
+
+	private Matricula matricula;
+	private ArrayList<Coche>listaCoche;
+	private Marca marca;
+	private Modelo modelo;
+}
